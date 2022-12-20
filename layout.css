@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    height: 150px;
+    width: 100%;
+    line-height: 150px;
+    background: #45ccd3; /* Old browsers */
+    background: -moz-linear-gradient(top,  #45ccd3 0%, #42e5bf 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #45ccd3 0%,#42e5bf 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #45ccd3 0%,#42e5bf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45ccd3', endColorstr='#42e5bf',GradientType=0 ); /* IE6-9 */
+}
+
+#header p {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    color:black;
+}
+
+
+#contents {
+    background-color: white;
+    width: 10%;
+    height: 70px;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+
+#contents-1 {
+    background-color: rgb(25, 45, 88);
+    width: 20%;
+    height: 70px;
+    margin: 0px;
+    padding: 0px;
+    border: solid rgb(189, 189, 189);
+    float: left;
+}
+
+#contents-1 a {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color:white;
+    line-height: 70px;
+    text-decoration: none;
+}
+
+#contents-2 {
+    background-color: white;
+    width: 15%;
+    height: 500px;
+    margin: 0px;
+    padding: 0px;
+    border: solid rgb(189, 189, 189);
+    float: left;
+}
+
+#contents-2 h1 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    color:black;
+    line-height: 110px;
+}
+
+#contents-2 h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    color:black;
+    line-height: 110px;
+}
+
+#contents-2 a {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 100;
+    color:black;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+#contents-2 button {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 100;
+    color:black;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+#contents-img {
+    background-color: white;
+    width: 50%;
+    height: 500px;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+
+#contents-3 {
+    width: 50%;
+    height: 500px;
+    background-image: url("./hansei.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    float: left;
+}
+
+
+input[id*="accordionExample"] {
+    display:block;
+    padding:10px;
+}
